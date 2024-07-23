@@ -2,7 +2,7 @@ import React from 'react'
 
 function Strategy() {
   return (
-    <div>Strategy</div>
+    <div>StrategyPage</div>
   )
 }
 
