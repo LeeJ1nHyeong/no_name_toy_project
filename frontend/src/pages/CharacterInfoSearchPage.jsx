@@ -1,9 +1,9 @@
 import React from 'react'
 
-function CharacterInfoSearch() {
+function CharacterInfoSearchPage() {
   return (
     <div>CharacterInfoSearchPage</div>
   )
 }
 
-export default CharacterInfoSearch
+export default CharacterInfoSearchPage

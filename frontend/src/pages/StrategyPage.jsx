@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Strategy() {
+function StrategyPage() {
   return (
     <div>StrategyPage</div>
   )
 }
 
-export default Strategy
+export default StrategyPage
