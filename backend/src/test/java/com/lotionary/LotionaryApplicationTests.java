@@ -1,10 +1,10 @@
-package LOtionAry.backend;
+package com.lotionary;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendApplicationTests {
+class LotionaryApplicationTests {
 
 	@Test
 	void contextLoads() {
