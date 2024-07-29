@@ -1,8 +1,13 @@
 package com.lotionary.entity.profile;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 import java.util.Optional;
 
+@Getter
+@Setter
 public class Profile {
 
     // 기본 정보

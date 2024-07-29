@@ -1,5 +1,10 @@
 package com.lotionary.entity.profile;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ArkPassivePoint {
 
     private String name;  // 이름

@@ -1,7 +1,12 @@
 package com.lotionary.entity.profile;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
+@Getter
+@Setter
 public class ArkPassive {
 
     private boolean isArkPassive;  // 활성화 여부
