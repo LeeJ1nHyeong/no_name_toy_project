@@ -38,4 +38,26 @@ public class Profile {
     private List<Stat> stats;  // 스탯(치특신제인숙)
     private List<Tendency> tendencies;  // 성향(지성, 담력, 매력, 친절)
     private ArkPassive arkPassive;  // 아크패시브
+
+    // 장비
+    private List<Equipment> equipments;  // 장비 목록
+
+    // 아바타
+    private List<Avatar> avatars;  // 아바타 착용 목록
+
+    // 스킬
+    private List<CombatSkill> combatSkills;  // 스킬 목록
+
+    // 각인
+    private Engraving engraving;
+
+    // 카드
+    private Card card;
+
+    // 보석
+
+    // pvp 증명전
+
+    // 수집품
+    private List<Collectible> collectibles;  // 수집품 목록
 }
