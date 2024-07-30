@@ -55,6 +55,7 @@ public class Profile {
     private Card card;
 
     // 보석
+    private Gem gem;
 
     // pvp 증명전
 
