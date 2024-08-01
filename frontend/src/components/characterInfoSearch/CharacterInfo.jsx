@@ -1,25 +1,19 @@
 import React from 'react'
+import BasicInfo from './BasicInfo'
+import EquipmentInfo from './EquipmentInfo'
+import GemInfo from './GemInfo'
 
 function CharacterInfo() {
+
   return (
     <div>
       {/* 기본 정보 */}
-      <div>
-        서버명 :
-        닉네임 : 
-        칭호 : 
-        전투 레벨 : 
-        아이템 레벨 :
-        클래스 명 : 
-        원정대 레벨 : 
-        영지 레벨 : 
-        영지 이름 : 
-      </div>
+      <BasicInfo />
       ====================
       {/* 장비 및 장신구 */}
       <div>
-        장비 및 장신구
-        보석
+        <EquipmentInfo />
+        <GemInfo />
       </div>
       ====================
       {/* 각인 */}
