@@ -10,13 +10,19 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        {/* Header */}
         <AppBar />
+
+        {/* Main */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/strategy" element={<StrategyPage />} />
           <Route path="/character-info-search" element={<CharacterInfoSearchPage />} />
           <Route path="*" element={<Error404Page />} />
         </Routes>
+
+        {/* Footer */}
+
       </BrowserRouter>
     </div>
   );
