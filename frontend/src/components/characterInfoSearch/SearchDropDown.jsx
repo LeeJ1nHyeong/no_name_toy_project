@@ -12,13 +12,15 @@ const DropDownBox = styled.div`
   background-color: white;
   border: 1px solid black;
   height: 100px;
-  width: 100px;
+  width: 200px;
 `;
 
 function SearchDropDown() {
   return (
     <Container>
-      <DropDownBox />
+      <DropDownBox>
+        검색 목록
+      </DropDownBox>
     </Container>
   )
 }
