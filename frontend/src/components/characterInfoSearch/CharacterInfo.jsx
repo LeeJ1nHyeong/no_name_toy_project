@@ -48,6 +48,11 @@ function CharacterInfo() {
         카드 목록
         카드 효과
       </div>
+      {/* 각인 */}
+      <div>
+        각인
+        아크패시브 : on/off
+      </div>
       ====================
       {/* 수집품 */}
       <div>
