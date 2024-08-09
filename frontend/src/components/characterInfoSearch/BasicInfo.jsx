@@ -1,11 +1,19 @@
 import React, { useState } from 'react'
+import { styled } from 'styled-components';
+
+const InfoContainer = styled.div`
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+`
+
 
 function BasicInfo() {
   const [serverName, setServerName] = useState("서버");
   const [nickname, setNickname] = useState("닉네임");
 
   return (
-    <div>
+    <InfoContainer>
       <div>서버명 : {serverName}</div>
       <div>닉네임 : {nickname}</div>
       <div>칭호 : </div>
@@ -15,7 +23,7 @@ function BasicInfo() {
       <div>원정대 레벨 </div>
       <div>영지 이름 </div>
       <div>영지 레벨 </div>
-    </div>
+    </InfoContainer>
   )
 }
 

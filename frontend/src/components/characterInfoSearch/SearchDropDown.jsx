@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -16,10 +16,27 @@ const DropDownBox = styled.div`
 `;
 
 function SearchDropDown() {
+  const [recentSearch, setRecentSearch] = useState([
+    "닉네임 1", "닉네임 2"
+  ]);
+
   return (
     <Container>
       <DropDownBox>
-        검색 목록
+        {recentSearch.length > 0 ? (
+          <div>
+            {recentSearch.slice(0, 3).map((search, index) => (
+              <div key={index}>
+                {search}
+                <button>삭제</button>
+              </div>
+            ))}
+          </div>
+          ) : (
+          <div>
+            최근 검색 목록 없음
+          </div>
+        )}
       </DropDownBox>
     </Container>
   )
